@@ -1,0 +1,27 @@
+@import "../../sass/variables";
+
+.About-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: $color-black;
+  padding-left: 50px;
+  padding-top: 195px;
+  padding-bottom: 150px;
+
+  &__title {
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 108px;
+    margin-bottom: 18px;
+  }
+
+  &__text {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  &__image {
+    max-width: 420px;
+  }
+}

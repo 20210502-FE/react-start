@@ -1,0 +1,35 @@
+@import "../../sass/variables";
+
+.Nav {
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    font-size: 22px;
+    line-height: 34px;
+    border-right: 2px solid $color-cod-gray;
+
+    &:first-child {
+      border-left: 2px solid $color-cod-gray;
+    }
+  }
+
+  &__link {
+    padding: 23px 0;
+    display: block;
+    width: 183px;
+    text-align: center;
+    color: $color-cod-gray;
+    transition: color .3s ease-out;
+
+    &:hover {
+      color: $color-pink;
+    }
+
+    &_active {
+      color: $color-pink;
+    }
+  }
+}

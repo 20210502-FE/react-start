@@ -1,0 +1,64 @@
+@import "sass/variables";
+@import "sass/fonts";
+@import "sass/mixins";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+}
+
+body {
+  position: relative;
+  background-color: $color-white;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.App {
+  display: grid;
+  grid-template-areas:
+          "header header"
+          "aside content"
+          "footer footer";
+  grid-template-rows: 82px 1fr;
+  grid-template-columns: 300px 2fr;
+  min-height: 100vh;
+}
+
+header {
+  grid-area: header;
+}
+
+main {
+  grid-area: content;
+}
+
+aside {
+  grid-area: aside;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.Wrapper {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+}

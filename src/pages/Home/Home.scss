@@ -1,0 +1,33 @@
+@import "../../sass/variables";
+
+.Home {
+  &__banner {
+    padding-top: 381px;
+    padding-bottom: 207px;
+    padding-left: 50px;
+    position: relative;
+
+    &-link {
+      font-size: 17px;
+      line-height: 28px;
+      color: $color-pink;
+    }
+
+    &-img {
+      position: absolute;
+      top: 86px;
+      right: 0;
+      max-width: 488px;
+    }
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 84px;
+    line-height: 130px;
+    color: $color-black;
+    z-index: 1;
+    position: relative;
+  }
+}

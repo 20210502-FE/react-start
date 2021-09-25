@@ -1,0 +1,27 @@
+@import "../../sass/variables";
+
+.Our-brands {
+  color: $color-black;
+  padding-top: 50px;
+  padding-bottom: 169px;
+
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 2px solid $color-black;
+    padding: 0 30px;
+  }
+
+  &__title {
+    font-size: 70px;
+    line-height: 108px;
+  }
+
+  &__link {
+    font-size: 17px;
+    line-height: 28px;
+    color: $color-black;
+    text-transform: uppercase;
+  }
+}

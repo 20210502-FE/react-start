@@ -1,0 +1,25 @@
+@import "./../../sass/variables";
+
+.Header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  border-top: 2px solid $color-cod-gray;
+  border-bottom: 2px solid $color-cod-gray;
+  background-color: $color-white;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+  }
+
+  &__logo-link {
+    display: inline-block;
+    width: 109px;
+  }
+}
